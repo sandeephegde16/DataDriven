@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+<Properties>
+	<Property name="basePath">./logs</Property>
+</Properties>
+ 
+  <Appenders>
+      <RollingFile name="File" 
+      	fileName="${basePath}/logs.log" 
+      	filePattern="${basePath}/prints-%d{yyyy-MM-dd}.log" 
+      	append="false">
+        <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+     	<SizeBasedTriggeringPolicy size="500000" />
+      </RollingFile>
+      
+    <Console name="Console" 
+    	target="SYSTEM_OUT">
+    	<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+  </Appenders>
+  sss
+  <Loggers>  	
+  	<Logger name="io.netty"
+  		level="OFF">
+  	</Logger>
+  	
+    <root level="trace">
+      <appender-ref ref="Console" level="all"/>
+      <appender-ref ref="File" level="debug"/>
+    </root>    
+  </Loggers>
+</Configuration>

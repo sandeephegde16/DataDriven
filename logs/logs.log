@@ -1,0 +1,12 @@
+21:50:08.459 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:50:08.465 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:50:09.369 [main] DEBUG base.TestBase - Config File Loaded.
+21:50:09.370 [main] DEBUG base.TestBase - OR File Loaded.
+21:50:11.272 [main] DEBUG base.TestBase - Chrome driver Loaded.
+21:50:11.643 [main] DEBUG base.TestBase - URL opened: https://www.way2automation.com/angularjs-protractor/banking/#/login
+21:50:11.929 [main] DEBUG base.TestBase - bankmanagerlogin clicked.
+21:50:17.411 [main] DEBUG base.TestBase - Browser Closed.
+21:50:18.611 [main] DEBUG base.TestBase - Chrome driver Loaded.
+21:50:19.013 [main] DEBUG base.TestBase - URL opened: https://www.way2automation.com/angularjs-protractor/banking/#/login
+21:50:19.676 [main] DEBUG base.TestBase - bankmanagerlogin clicked.
+21:50:24.738 [main] DEBUG base.TestBase - Browser Closed.

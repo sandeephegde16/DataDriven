@@ -1,0 +1,28 @@
+Different locator strategies
+Different browser invocation
+Config properties
+TestNG - Different tags
+Assertions - Hard Assert, Soft Assert
+Actions
+Browser navigation
+Dropdowns
+Alerts
+Frames
+Handling multiple windows and tabs
+Data Provider
+Logs
+Report - ReportNG, Extent Report
+Listeners
+Screenshot capturing - Entire Page, Element screenshot
+Excel Data Reading
+DB connection
+API connection
+Different suite set-up in pom file - Sanity, Regression, Complete
+Jenkins setup
+Jenkins-GIT integration
+Jenkins-GIT-Grid setup
+Jenkins-GIT-Grid-Docker container setup
+Parallel Run
+AWS Integration
+Report Portal/Any report dashboard
+
